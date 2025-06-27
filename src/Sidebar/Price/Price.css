@@ -1,0 +1,15 @@
+.dark .sidebar-title {
+  color: white;
+}
+
+.dark .sidebar-label-container {
+  color: white;
+}
+
+.dark .checkmark {
+  background-color: #333;
+}
+
+.dark .sidebar-label-container input:checked ~ .checkmark {
+  background-color: #4caf50;
+}

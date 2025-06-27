@@ -1,0 +1,23 @@
+.color-title {
+  margin-top: 2rem;
+}
+.dark .sidebar-title {
+  color: white;
+}
+
+.dark .sidebar-label-container {
+  color: white;
+}
+
+.dark .checkmark {
+  background-color: #333;
+}
+
+.dark .sidebar-label-container input:checked ~ .checkmark {
+  background-color: #00bcd4;
+}
+
+/* Ensure white color checkmark is visible in dark mode */
+.dark .sidebar-label-container input[value="white"]:checked ~ .checkmark {
+  border-color: white;
+}
